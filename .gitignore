@@ -4,6 +4,22 @@ target/
 !**/src/test/**/target/
 .kotlin
 
+### Local configuration and secrets ###
+.env
+.env.*
+!.env.example
+*.local
+
+### Logs and crash reports ###
+*.log
+hs_err_pid*
+replay_pid*
+
+### Temporary files ###
+*.tmp
+*.swp
+*.swo
+
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
@@ -37,3 +53,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Linux ###
+*~
