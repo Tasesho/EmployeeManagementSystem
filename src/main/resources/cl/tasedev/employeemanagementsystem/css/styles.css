@@ -1,4 +1,86 @@
-.root {
-    -fx-font-family: "Arial";
-    -fx-background-color: #f4f4f4;
+/* ==========================================================================
+   YoRHa Tactical UI Theme (NieR:Automata inspired)
+   Paleta base: #d1cdb7 (Arena), #dcd8c0 (Crema), #454138 (Carbón), #b84a39 (Alerta)
+   ========================================================================== */
+
+.root-pane {
+    -fx-background-color: #d1cdb7;
+    -fx-font-family: "Monospace", "Sans-Serif";
 }
+
+.label {
+    -fx-text-fill: #454138;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Barra superior */
+.header-bar {
+    -fx-background-color: #c8c3ad;
+    -fx-border-color: #454138;
+    -fx-border-width: 0 0 1.5 0;
+}
+
+.header-title {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #454138;
+    -fx-letter-spacing: 1.5px;
+}
+
+.section-title {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #454138;
+    -fx-background-color: #bab59e;
+    -fx-padding: 5 8 5 8;
+    -fx-border-color: #454138;
+    -fx-border-width: 0 0 0 3;
+}
+
+/* Panel lateral izquierdo */
+.form-panel {
+    -fx-background-color: #dcd8c0;
+    -fx-border-color: #454138;
+    -fx-border-width: 0 1.5 0 0;
+}
+
+.separator .line {
+    -fx-border-color: #8c8675;
+    -fx-border-width: 0.5 0 0 0;
+}
+
+/* Campos de texto y DatePicker */
+.text-field, .date-picker .text-field {
+    -fx-background-color: #e8e4cf;
+    -fx-text-fill: #2b2822;
+    -fx-prompt-text-fill: #8c8675;
+    -fx-border-color: #8c8675;
+    -fx-border-width: 1;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+    -fx-padding: 6 8 6 8;
+}
+
+.text-field:focused, .date-picker:focused .text-field {
+    -fx-border-color: #454138;
+    -fx-background-color: #f2efe0;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #bab59e;
+    -fx-border-color: #8c8675;
+    -fx-border-width: 1 1 1 0;
+    -fx-background-radius: 0;
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #454138;
+}
+
+.date-picker .arrow-button:hover .arrow {
+    -fx-background-color: #dcd8c0;
+}
+
+.readonly-field {
+    -fx-background-color: #c8
