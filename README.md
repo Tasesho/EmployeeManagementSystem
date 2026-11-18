@@ -100,6 +100,10 @@ The project includes the MariaDB JDBC driver in `pom.xml`. It does not currently
 - MariaDB with the `ems_db` database and required employee table
 - Maven (or the included Maven wrapper)
 
+## Installation
+
+See [INSTALL.md](INSTALL.md) for setup instructions, MariaDB configuration, and commands to run the application on Windows, macOS, or Linux.
+
 ## Run the application
 
 From the project root, run:
